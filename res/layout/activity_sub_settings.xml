@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+       
+     <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+		    <Button  
+		        android:id="@+id/setVideosLoadingStrategy"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_margin="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="设置电影排序方式"
+		        android:textSize="16sp" />  
+	</LinearLayout>	
+       
+     <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+		    <Button  
+		        android:id="@+id/setBGMusicSetting"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="0dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="开/关背景音乐"
+		        android:textSize="16sp" />  
+	</LinearLayout>	
+	
+        <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+		    <Button  
+		        android:id="@+id/cleanVideoCache"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="0dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="打开视频缓存"
+		        android:textSize="16sp" />  
+	</LinearLayout>	
+        <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+		    <Button  
+		        android:id="@+id/cleanPlayHistory"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="0dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="清除播放记录"
+		        android:textSize="16sp" />  
+	</LinearLayout>	
+	
+        <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+	<Button  
+		        android:id="@+id/secureLockApp"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="0dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="设置APP安全锁"
+		        android:textSize="16sp" /> 
+	    
+	    	    
+	</LinearLayout>
+	
+	<LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="horizontal">
+	<Button  
+		        android:id="@+id/checkAppVersionInfo"  
+		        android:layout_width="match_parent"  
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="0dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="查看当前APP版本"
+		        android:textSize="16sp" />  
+	    	    
+	</LinearLayout>
+	
+	
+</LinearLayout>

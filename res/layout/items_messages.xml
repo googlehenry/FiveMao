@@ -1,0 +1,43 @@
+<LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="horizontal">
+	    
+<!-- 	     <TextView -->
+<!-- 	    android:id="@+id/itemMessageIdx" -->
+<!-- 	    android:layout_width="60dp" -->
+<!-- 	    android:layout_height="wrap_content"   -->
+<!-- 	    android:textStyle="bold" -->
+<!-- 	    android:textSize="14sp"  -->
+<!-- 	    android:text="序号" -->
+<!-- 	    /> -->
+<!-- 	     <TextView -->
+<!-- 	    android:id="@+id/itemAuthor" -->
+<!-- 	    android:layout_width="wrap_content" -->
+<!-- 	    android:layout_height="wrap_content" -->
+<!-- 	    android:textStyle="bold" -->
+<!-- 	    android:textSize="14sp"  -->
+<!-- 	    android:text="作者" -->
+<!-- 	    /> -->
+	     <TextView
+	    android:id="@+id/itemCreatedTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:textSize="14sp" 
+	    android:layout_marginRight="10dp"
+	    android:text="创建时间"
+	    />
+	     <TextView
+	    android:id="@+id/itemContent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:textSize="14sp" 
+	    android:text="内容"
+	    />
+     </LinearLayout>
+   
+    

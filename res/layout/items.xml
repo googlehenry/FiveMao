@@ -1,0 +1,71 @@
+
+<LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent" 
+    >  
+    
+         <com.ex.fivemao.ui.MyImageView
+	    android:id="@+id/itemIcon"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"  
+	    android:background="@drawable/edit_text_border"
+	    android:src="@drawable/ic_launcher"
+	    android:padding="2dp"
+	    android:text="图标"
+	    />
+         <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:layout_margin="5dp"
+	    android:layout_toRightOf="@id/itemIcon"
+	    android:orientation="vertical">
+	    
+	     <TextView
+	    android:id="@+id/itemTitle"
+	    android:paddingTop="2dp"
+	    android:paddingLeft="2dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:layout_weight="1"
+	    android:textStyle="bold"
+	    android:textSize="16sp" 
+	    android:text="标题"
+	    />
+	     <TextView
+	    android:id="@+id/itemIdx"
+	    android:paddingTop="2dp"
+	    android:paddingLeft="2dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textStyle="bold"
+	    android:textSize="14sp" 
+	    android:text="序号"
+	    />
+	     <TextView
+	    android:id="@+id/itemDesc"
+	    android:paddingTop="2dp"
+	    android:paddingLeft="2dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:layout_weight="1"
+	    android:textSize="14sp" 
+	    android:text="介绍"
+	    />
+	     </LinearLayout>
+	 </RelativeLayout>
+	    
+     </LinearLayout>
+   
+    

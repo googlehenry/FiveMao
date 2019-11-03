@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:id="@+id/RelativeLayoutHomePage"    
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent" 
+    android:background="@drawable/bitmap_bg1">    
+    
+    
+    <ImageView    
+        android:id="@+id/imgVideo"     
+        android:layout_width="100dp"    
+        android:layout_height="100dp"    
+        android:layout_centerInParent="true" 
+        android:src="@drawable/video"/>    
+        
+<!--     在中间图片的左边     -->
+    <ImageView    
+        android:id="@+id/imgSearch"     
+        android:layout_width="95dp"    
+        android:layout_height="95dp"
+        android:layout_marginRight="20dp"    
+        android:layout_toLeftOf="@id/imgVideo"    
+        android:layout_centerVertical="true"    
+        android:src="@drawable/search"/>    
+        
+<!--     在中间图片的右边     -->
+    <ImageView
+        android:id="@+id/imgMe"     
+        android:layout_width="95dp"    
+        android:layout_height="95dp"    
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imgVideo"    
+        android:layout_centerVertical="true"    
+        android:src="@drawable/me"/>    
+        
+    
+    
+    
+<!--     在中间图片的上面     -->
+<ImageView    
+        android:id="@+id/imgHothothot"     
+        android:layout_width="90dp"    
+        android:layout_height="90dp"   
+        android:layout_marginBottom="20dp" 
+        android:layout_above="@id/imgVideo"    
+        android:layout_centerHorizontal="true"    
+        android:src="@drawable/hothothot"/>  
+        
+<!--     在中间图片的下面     -->
+    <ImageView    
+        android:id="@+id/imgBoard"     
+        android:layout_width="92dp"    
+        android:layout_height="92dp"   
+        android:layout_marginTop="20dp" 
+        android:layout_below="@id/imgVideo"    
+        android:layout_centerHorizontal="true"    
+        android:src="@drawable/board"/>    
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<LinearLayout 
+    android:id="@+id/videoPlayWholePage"
+      xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView 
+	    android:id="@+id/videoPlayingHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#fff"
+    android:text="*稍等,加载电影中..."
+	    />
+        <TextView
+            android:id="@+id/playerVideoName"  
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="20sp" 
+		    android:gravity="center"
+		    android:layout_marginTop="20dp"
+		    android:textStyle="bold"
+		    android:layout_marginBottom="20dp"
+		    />
+<!--         <View   -->
+<!--         android:layout_width="match_parent"   -->
+<!--         android:layout_height="1dp"   -->
+<!--         android:background="#1111ff" -->
+<!--         />   -->
+
+    <LinearLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:background="#000"
+        android:orientation="vertical">
+        
+	    <com.boredream.bdvideoplayer.BDVideoSplitView
+	        android:id="@+id/vplayPlayer"
+	        android:layout_gravity="center"
+	        android:layout_height="220dp"
+		    android:layout_width="match_parent"
+		    android:background="@drawable/video_bg"
+		    />
+	    
+	</LinearLayout>
+	<LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+	<TextView
+        android:id="@+id/playerVideoNote"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:textSize="12sp"
+	    android:gravity="center" 
+	    android:text="左屏上下亮度 右屏上下声音 左右调进度"
+	    />
+	</LinearLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+	    <Button  
+	        android:id="@+id/buyVideo"  
+	        android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content" 
+	        android:padding="5dp"
+	        android:layout_marginRight="10dp"
+        	android:background="@drawable/bt_round_shape"
+	        android:textColor="#fff"
+	        android:text="5毛购买\n永久完整版"
+	        android:textSize="16sp" />  
+	        
+	        <Button  
+		        android:id="@+id/buyOneDayMembershipX"  
+		        android:layout_width="wrap_content"  
+		        android:layout_height="wrap_content" 
+		        android:padding="5dp"
+		        android:background="@drawable/bt_round_shape"
+		        android:textColor="#fff"
+		        android:text="1元购买\n全场一日会员"
+		        android:textSize="16sp" />  
+   </LinearLayout>
+   <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center"
+    android:orientation="horizontal">
+	    <Button  
+	        android:id="@+id/baiduYunPlayVideo"  
+	        android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content" 
+	        android:textColor="#fff"
+		    android:padding="5dp"
+        	android:background="@drawable/bt_round_shape"
+		    android:visibility="gone"
+	        android:text="百度云高清视频"
+	        android:textSize="24sp" />  
+   </LinearLayout>
+    <TextView
+        android:id="@+id/videoBaiduYunDesc"  
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"  
+	    android:textSize="14sp" 
+	    android:autoLink="web"
+	    android:textIsSelectable="true"
+	    />
+    
+     
+</LinearLayout>

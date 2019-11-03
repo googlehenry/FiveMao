@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/aliPayScrollView"  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbars="vertical"
+  tools:context="com.ex.fivemao.VideoBuyActivity" >
+<LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:focusable="true"  
+	android:focusableInTouchMode="true"  
+    android:orientation="vertical">
+     <TextView 
+	    android:id="@+id/processingAliTransLoadingHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#ffffff"
+    android:text="正在处理用户交易记录截屏,请稍等..."
+    
+	    />
+     
+    <TextView
+            android:id="@+id/buyVideoName"  
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="24sp"
+		    android:textStyle="bold" 
+		    android:gravity="center"
+		    android:layout_marginTop="20dp"
+		    />
+   
+    <View
+  	    android:layout_width="match_parent"
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+  	    />
+    
+    <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="22sp" 
+		    android:textColor="#cc9966"
+		    android:gravity="center"
+		    android:layout_marginBottom="20dp"
+		    android:text="支付流程指南"
+		    />
+    
+    <TextView
+        android:id="@+id/buyVideoIntro"  
+        
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"  
+	    android:gravity="center"
+	    android:layout_marginLeft="5dp"
+	    android:textSize="20sp" 
+	    android:text="第一步:点击'支付宝付款'打开支付宝付款,也可以人工扫描,使用下面支付宝0.5元付款码付款,已内置0.5元收款码。"
+	    />
+    <ImageView    
+        android:id="@+id/imgPaymentAccountImage"  
+        android:layout_width="match_parent"    
+        android:layout_height="wrap_content"  
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/post_pay_alipay"/>   
+        
+    <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button  
+        android:id="@+id/paymentCallAli"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:background="@drawable/bt_round_shape"
+        android:textColor="#fff"
+        android:text="支付宝付款"
+        android:textSize="24sp" />
+    
+    </LinearLayout>
+    <View
+  	    android:layout_width="match_parent"
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+  	    />
+    <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:focusable="true"  
+	android:focusableInTouchMode="true"  
+    android:orientation="vertical">
+	    
+	    <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="20sp" 
+		    android:gravity="center"
+		    android:text="第二步:付款成功后  请打开我的转账记录（或我的账单）并截屏保存到相册,再上传如下图的支付截屏.下图示例中红色字体为提示,可以忽略。"
+		    />
+	     
+	    <ImageView    
+	        android:id="@+id/imgPaymentEvidenceImage"  
+	        android:layout_width="match_parent"    
+	        android:layout_height="wrap_content"  
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:src="@drawable/post_pay_ali_feedback"/>   
+	    <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center"
+    android:orientation="horizontal">
+	    <Button  
+	        android:id="@+id/paymentEvidenceImage"  
+	        android:layout_width="wrap_content"  
+	        android:layout_height="wrap_content" 
+	        android:padding="5dp"
+        	android:background="@drawable/bt_round_shape"
+	        android:textColor="#fff"
+	        android:layout_margin="20dp"
+	        android:layout_marginBottom="30dp"
+	        android:text="上传订单截屏"
+	        android:textSize="24sp" />
+	    </LinearLayout>
+	    <ImageView    
+	        android:id="@+id/paymentEvidenceImagePreview"  
+	        android:layout_width="match_parent"    
+	        android:layout_height="wrap_content"  
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        /> 
+	    <EditText
+	         android:id="@+id/aliOrderCode"  
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:visibility="gone"
+		    android:hint="点我输入/粘贴支付宝订单号码"
+		    />
+	    <Button  
+	        android:id="@+id/paymentEvidence"  
+	        android:layout_width="match_parent"  
+	        android:layout_height="wrap_content" 
+	        android:background="@drawable/bt_round_shape"
+	        android:textColor="#fff"
+	        android:layout_margin="20dp"
+	        android:visibility="gone"
+	        android:text="提交订单号码"
+	        android:textSize="24sp" />  
+       </LinearLayout>
+	</LinearLayout>
+</ScrollView>

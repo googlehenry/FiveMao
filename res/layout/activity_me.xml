@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/aliPayScrollView"  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbars="vertical"
+  tools:context="com.ex.fivemao.MeActivity" >
+  <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"  
+    >
+   
+	<LinearLayout 
+	    android:id="@+id/meAcLoginSignOnSection"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+   
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/loginToWumao"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="马上登录"
+			        android:textSize="16sp" />  
+		</LinearLayout>	
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/signupToWumao"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="马上注册"
+			        android:textSize="16sp" />  
+		</LinearLayout>
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/logoffFromWumao"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="退出登录"
+			        android:textSize="16sp" />  
+		</LinearLayout>		
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/checkMyRecDowns"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="查看推荐佣金"
+			        android:textSize="16sp" />  
+		</LinearLayout>		
+	</LinearLayout>
+	<View
+  	    android:layout_width="match_parent"
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+  	    />
+	
+	<LinearLayout 
+	android:id="@+id/meAcLoinedSection"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="vertical">
+		
+		
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:gravity="center"
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/buyOneDayMembership"  
+			        android:layout_width="wrap_content"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp" 
+			        android:layout_marginBottom="8dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape_1"
+			        android:textColor="#ffffff"
+			        android:textStyle="bold"
+			        android:text="一元购买一日会员"
+			        android:textSize="16sp" />  
+			        
+		</LinearLayout>	
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:gravity="center"
+	    android:orientation="horizontal">
+			     <Button  
+			        android:id="@+id/buy1MonthMembership"  
+			        android:layout_width="wrap_content"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginTop="8dp"
+			        android:layout_marginBottom="10dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape_1"
+			        android:textColor="#ffffff"
+			        android:text="8.0元购买\n全场1个月"
+			        android:textSize="16sp" /> 
+			        <Button  
+			        android:id="@+id/buy3MonthsMembership"  
+			        android:layout_width="wrap_content"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="10dp"
+			        android:layout_marginTop="8dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape_1"
+			        android:textColor="#ffffff"
+			        android:text="18.0元购买\n全场3个月"
+			        android:textSize="16sp" /> 
+								        
+		</LinearLayout>	
+		<View
+  	    android:layout_width="match_parent"
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+  	    />
+		
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/checkVisitedVideos"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content" 
+			        android:layout_marginTop="20dp" 
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="查看播放历史记录"
+			        android:textSize="16sp" />  
+		</LinearLayout>	
+		
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/checkBoughtVideos"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content" 
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="查看购买电影列表"
+			        android:textSize="16sp" />  
+		</LinearLayout>	
+		
+		<LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"  
+	    android:orientation="horizontal">
+			    <Button  
+			        android:id="@+id/checkBoughtMemberships"  
+			        android:layout_width="match_parent"  
+			        android:layout_height="wrap_content" 
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginLeft="40dp"
+			        android:layout_marginRight="40dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="查看会员购买记录"
+			        android:textSize="16sp" />  
+		</LinearLayout>	
+		
+	</LinearLayout>
+<!-- 	<View -->
+<!--   	    android:layout_width="match_parent" -->
+<!--         android:layout_height="1.0px" -->
+<!--       android:layout_marginLeft="1.0px" -->
+<!--       android:layout_marginRight="1.0px" -->
+<!--         android:background="#3aadfd" -->
+<!--   	    /> -->
+    <TextView 
+        android:id="@+id/recToFriendNotice"  
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:paddingLeft="20dp"
+    android:layout_margin="5dp"
+    android:textColor="#999999"
+    android:background="@drawable/edit_text_border"
+    android:text="【推荐APP给好友获得20%现金奖励规则:】\n
+    1.任何注册用户拥有有效的邮箱地址皆可参与\n
+    2.推荐给别人时需要别人在注册账号时在[推荐人邮箱]中填您的邮箱地址\n
+    3.推荐的注册用户购买会员(不包括购买单片)后,您将获取支付价格的20%作为提成。\n
+    4.每次购买均有效，比如推荐的用户多次购买，提成金额将累计。\n
+    5.佣金满10元时可联系客服申请提现[我的个人信息-查看推荐结果-申请提现]\n"
+    
+	    />
+</LinearLayout>
+</ScrollView>

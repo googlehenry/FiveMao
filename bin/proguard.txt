@@ -1,0 +1,96 @@
+# view AndroidManifest.xml #generated:32
+-keep class android.support.v4.content.FileProvider { <init>(...); }
+
+# view res/layout/activity_sub_videoplay.xml #generated:43
+-keep class com.boredream.bdvideoplayer.BDVideoSplitView { <init>(...); }
+
+# view res/layout/activity_video_detail.xml #generated:8
+-keep class com.boredream.bdvideoplayer.BDVideoView { <init>(...); }
+
+# view res/layout/video_view.xml #generated:13
+-keep class com.boredream.bdvideoplayer.view.VideoControllerView { <init>(...); }
+
+# view res/layout/video_media_controller.xml #generated:19
+-keep class com.boredream.bdvideoplayer.view.VideoErrorView { <init>(...); }
+
+# view res/layout/video_view.xml #generated:32
+-keep class com.boredream.bdvideoplayer.view.VideoProgressOverlay { <init>(...); }
+
+# view res/layout/video_view.xml #generated:23
+-keep class com.boredream.bdvideoplayer.view.VideoSystemOverlay { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.ex.fivemao.BoardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.ex.fivemao.BoardMsgDescActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.ex.fivemao.FiveMaoApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.ex.fivemao.HelpGuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.ex.fivemao.HotHotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.ex.fivemao.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.ex.fivemao.MeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.ex.fivemao.MeBoughtMembershipActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.ex.fivemao.MeBoughtVideosActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.ex.fivemao.MeLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.ex.fivemao.MeRecDownsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.ex.fivemao.MeVisitedVideosActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.ex.fivemao.MenuSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.ex.fivemao.ReconToFriendsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.ex.fivemao.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.ex.fivemao.TestAudioVisualizerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.ex.fivemao.VideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.ex.fivemao.VideoBuyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.ex.fivemao.VideoBuyMembershipActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.ex.fivemao.VideoDescActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.ex.fivemao.VideoDuoPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.ex.fivemao.VideoPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.ex.fivemao.audioservice.MusicService { <init>(...); }
+
+# view res/layout/items.xml #generated:15
+-keep class com.ex.fivemao.ui.MyImageView { <init>(...); }
+
+# view res/layout/activity_search.xml #generated:23
+-keep class com.ex.fivemao.ui.SearchEditText { <init>(...); }
+

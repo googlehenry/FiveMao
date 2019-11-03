@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#2197db"
+  >
+ <TextView
+    android:id="@+id/loginTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="20dp"
+    android:textColor="#FFF"
+    android:textSize="28sp"
+    />
+   
+<LinearLayout
+    android:id="@+id/input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/loginTitle"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="28dp"
+    android:background="#fff"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+ 
+ <EditText
+      android:id="@+id/userId"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@null"
+      android:imeOptions="actionDone"
+      android:textSize="16sp"
+      android:paddingLeft="5dp"
+      android:ems="10"
+      android:hint="*请输入用户名"
+      >
+  </EditText>
+<Button
+      android:id="@+id/button_bar"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginLeft="1dp"
+      android:background="@drawable/edit_delete_icon"
+      android:textSize="14sp"
+      android:gravity="center"
+      android:textColor="#fff"
+      android:padding="0dp"
+      />
+ 
+ </LinearLayout>
+ <View
+      android:layout_width="fill_parent"
+      android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+      android:background="#3aadfd" />
+<EditText
+      android:id="@+id/pass"
+      android:layout_width="fill_parent"
+      android:layout_height="44.0dip"
+      android:background="#00ffffff"
+      android:gravity="center_vertical"
+      android:inputType="textPassword"
+      android:paddingLeft="5dp"
+      android:maxLength="16"
+      android:maxLines="1"
+      android:textColor="#ff1d1d1d"
+      android:textColorHint="#ff666666"
+      android:textSize="16.0sp"
+      android:hint="*请输入密码"
+      />
+
+	<View
+      android:layout_width="fill_parent"
+      android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+      android:background="#3aadfd" />
+	<LinearLayout
+	    android:id="@+id/userEmailLine"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+	<EditText
+      android:id="@+id/userEmailAct"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@null"
+      android:inputType="textEmailAddress"
+      android:imeOptions="actionDone"
+      android:textSize="16sp"
+      android:paddingLeft="5dp"
+      android:ems="10"
+      android:hint="*我的邮箱(找回密码,赚佣金)"
+      >
+  </EditText>
+      <Button
+      android:id="@+id/button_barMyMail"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginLeft="1dp"
+      android:background="@drawable/edit_delete_icon"
+      android:textSize="14sp"
+      android:gravity="center"
+      android:textColor="#fff"
+      android:padding="0dp"
+      />
+  </LinearLayout>
+	<View
+      android:layout_width="fill_parent"
+      android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+      android:background="#3aadfd" />
+	<LinearLayout
+	    android:id="@+id/recEmailLine"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+	<EditText
+      android:id="@+id/userProxyEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:background="@null"
+      android:inputType="textEmailAddress"
+      android:imeOptions="actionDone"
+      android:textSize="16sp"
+      android:paddingLeft="5dp"
+      android:textColor="#ff0000"
+      android:ems="10"
+      android:hint="推荐人邮箱(设置后可看V+电影)"
+      >
+  </EditText>
+      <Button
+      android:id="@+id/button_barRecMail"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginLeft="1dp"
+      android:background="@drawable/edit_delete_icon"
+      android:textSize="14sp"
+      android:gravity="center"
+      android:textColor="#fff"
+      android:padding="0dp"
+      />
+  </LinearLayout>
+  </LinearLayout>
+ <Button
+   android:id="@+id/confirmBtn"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_below="@+id/input"
+   android:layout_marginTop="10dp"
+   android:background="#3aadfd"
+   android:text="确  定"
+   android:textColor="#ffffff"
+   android:textSize="18dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="28dp"/>
+<!--   <TextView -->
+<!--     android:text="" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_below="@+id/loginBtn" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:layout_centerHorizontal="true" -->
+<!--     android:id="@+id/promptText" -->
+<!--     android:textColor="#ff0000" -->
+<!--     android:layout_marginTop="10dp" -->
+<!--     android:textSize="18sp"/> -->
+ 
+  <TextView 
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/confirmBtn"
+    android:textSize="14sp"
+    android:textColor="#eeeeee"
+    android:text="\n
+    	【推荐APP给好友获得20%现金奖励规则:】\n
+    1.任何注册用户拥有有效的邮箱地址皆可参与\n
+    2.推荐给别人时需要别人在注册账号时在[推荐人邮箱]中填您的邮箱地址\n
+    3.推荐的注册用户购买会员(不包括购买单片)后,您将获取支付价格的20%作为提成。\n
+    4.每次购买均有效，比如推荐的用户多次购买，提成金额将累计。\n
+    5.佣金满10元时可联系客服申请提现[我的个人信息-查看推荐结果-申请提现]\n"
+	    />
+  
+</RelativeLayout>

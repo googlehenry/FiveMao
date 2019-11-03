@@ -1,0 +1,4 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="top"
+    android:src="@drawable/home_bg"
+    android:tileMode="disabled"></bitmap>

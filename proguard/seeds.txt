@@ -1,0 +1,536 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.NotificationCompatSideChannelService
+android.support.v4.content.FileProvider
+android.support.v4.content.FileProvider: FileProvider()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.boredream.bdvideoplayer.BDVideoSplitView
+com.boredream.bdvideoplayer.BDVideoSplitView: BDVideoSplitView(android.content.Context)
+com.boredream.bdvideoplayer.BDVideoSplitView: BDVideoSplitView(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.BDVideoSplitView: BDVideoSplitView(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.BDVideoSplitView: void setVideoTitle(java.lang.String)
+com.boredream.bdvideoplayer.BDVideoSplitView: int getTotalCurrentTime()
+com.boredream.bdvideoplayer.BDVideoSplitView: void setOnVideoControlListener(com.boredream.bdvideoplayer.listener.OnVideoControlListener)
+com.boredream.bdvideoplayer.BDVideoSplitView: int getCurrentPosition()
+com.boredream.bdvideoplayer.BDVideoSplitView: android.media.MediaPlayer getCurrentPlayer()
+com.boredream.bdvideoplayer.BDVideoSplitView: int getDuration()
+com.boredream.bdvideoplayer.BDVideoSplitView: void setDuoPlayerActivity(com.ex.fivemao.VideoDuoPlayerActivity)
+com.boredream.bdvideoplayer.BDVideoSplitView: int getTotalSplitTime()
+com.boredream.bdvideoplayer.BDVideoView
+com.boredream.bdvideoplayer.BDVideoView: BDVideoView(android.content.Context)
+com.boredream.bdvideoplayer.BDVideoView: BDVideoView(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.BDVideoView: BDVideoView(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.BDVideoView: void setVideoTitle(java.lang.String)
+com.boredream.bdvideoplayer.BDVideoView: void setOnVideoControlListener(com.boredream.bdvideoplayer.listener.OnVideoControlListener)
+com.boredream.bdvideoplayer.BDVideoView: int getCurrentPosition()
+com.boredream.bdvideoplayer.BDVideoView: int getDuration()
+com.boredream.bdvideoplayer.BDVideoView: void setSplitVideoTotalTime(int)
+com.boredream.bdvideoplayer.BDVideoView: int getSplitVideoTotalTime()
+com.boredream.bdvideoplayer.BDVideoView: void setSplitBaseTime(int)
+com.boredream.bdvideoplayer.BDVideoView: void setDuoPlayerActivity(com.ex.fivemao.VideoDuoPlayerActivity)
+com.boredream.bdvideoplayer.view.VideoBehaviorView
+com.boredream.bdvideoplayer.view.VideoBehaviorView: VideoBehaviorView(android.content.Context)
+com.boredream.bdvideoplayer.view.VideoBehaviorView: VideoBehaviorView(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.view.VideoBehaviorView: VideoBehaviorView(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.view.VideoControllerView
+com.boredream.bdvideoplayer.view.VideoControllerView: void setOnVideoControlListener(com.boredream.bdvideoplayer.listener.OnVideoControlListener)
+com.boredream.bdvideoplayer.view.VideoControllerView: VideoControllerView(android.content.Context)
+com.boredream.bdvideoplayer.view.VideoControllerView: VideoControllerView(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.view.VideoControllerView: VideoControllerView(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.view.VideoControllerView: void setMediaPlayer(com.boredream.bdvideoplayer.BDVideoPlayer)
+com.boredream.bdvideoplayer.view.VideoControllerView: void setVideoInfo(com.boredream.bdvideoplayer.bean.IVideoInfo)
+com.boredream.bdvideoplayer.view.VideoControllerView: void setVideoTitle(java.lang.String)
+com.boredream.bdvideoplayer.view.VideoControllerView: com.ex.fivemao.VideoDuoPlayerActivity getDuoPlayerActivity()
+com.boredream.bdvideoplayer.view.VideoControllerView: void setDuoPlayerActivity(com.ex.fivemao.VideoDuoPlayerActivity)
+com.boredream.bdvideoplayer.view.VideoControllerView: int getSplitTotalTime()
+com.boredream.bdvideoplayer.view.VideoControllerView: void setSplitTotalTime(int)
+com.boredream.bdvideoplayer.view.VideoControllerView: int getSplitBaseTime()
+com.boredream.bdvideoplayer.view.VideoControllerView: void setSplitBaseTime(int)
+com.boredream.bdvideoplayer.view.VideoControllerView: android.media.MediaPlayer getSplitMediaPlayer()
+com.boredream.bdvideoplayer.view.VideoControllerView: void setSplitMediaPlayer(android.media.MediaPlayer)
+com.boredream.bdvideoplayer.view.VideoErrorView
+com.boredream.bdvideoplayer.view.VideoErrorView: int getCurStatus()
+com.boredream.bdvideoplayer.view.VideoErrorView: VideoErrorView(android.content.Context)
+com.boredream.bdvideoplayer.view.VideoErrorView: VideoErrorView(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.view.VideoErrorView: VideoErrorView(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.view.VideoErrorView: void setOnVideoControlListener(com.boredream.bdvideoplayer.listener.OnVideoControlListener)
+com.boredream.bdvideoplayer.view.VideoProgressOverlay
+com.boredream.bdvideoplayer.view.VideoProgressOverlay: void setBreakMaxBuffededProgress(boolean)
+com.boredream.bdvideoplayer.view.VideoProgressOverlay: VideoProgressOverlay(android.content.Context)
+com.boredream.bdvideoplayer.view.VideoProgressOverlay: VideoProgressOverlay(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.view.VideoProgressOverlay: VideoProgressOverlay(android.content.Context,android.util.AttributeSet,int)
+com.boredream.bdvideoplayer.view.VideoProgressOverlay: int getTargetProgress()
+com.boredream.bdvideoplayer.view.VideoSystemOverlay
+com.boredream.bdvideoplayer.view.VideoSystemOverlay: VideoSystemOverlay(android.content.Context)
+com.boredream.bdvideoplayer.view.VideoSystemOverlay: VideoSystemOverlay(android.content.Context,android.util.AttributeSet)
+com.boredream.bdvideoplayer.view.VideoSystemOverlay$SystemType: com.boredream.bdvideoplayer.view.VideoSystemOverlay$SystemType[] values()
+com.boredream.bdvideoplayer.view.VideoSystemOverlay$SystemType: com.boredream.bdvideoplayer.view.VideoSystemOverlay$SystemType valueOf(java.lang.String)
+com.ex.fivemao.BaseActivity
+com.ex.fivemao.BaseActivity: BaseActivity()
+com.ex.fivemao.BoardActivity
+com.ex.fivemao.BoardActivity: BoardActivity()
+com.ex.fivemao.BoardMsgDescActivity
+com.ex.fivemao.BoardMsgDescActivity: BoardMsgDescActivity()
+com.ex.fivemao.FiveMaoApplication
+com.ex.fivemao.FiveMaoApplication: FiveMaoApplication()
+com.ex.fivemao.HelpGuideActivity
+com.ex.fivemao.HelpGuideActivity: HelpGuideActivity()
+com.ex.fivemao.HotHotActivity
+com.ex.fivemao.HotHotActivity: HotHotActivity()
+com.ex.fivemao.MainActivity
+com.ex.fivemao.MainActivity: MainActivity()
+com.ex.fivemao.MeActivity
+com.ex.fivemao.MeActivity: MeActivity()
+com.ex.fivemao.MeBoughtMembershipActivity
+com.ex.fivemao.MeBoughtMembershipActivity: MeBoughtMembershipActivity()
+com.ex.fivemao.MeBoughtVideosActivity
+com.ex.fivemao.MeBoughtVideosActivity: MeBoughtVideosActivity()
+com.ex.fivemao.MeLoginActivity
+com.ex.fivemao.MeLoginActivity: MeLoginActivity()
+com.ex.fivemao.MeRecDownsActivity
+com.ex.fivemao.MeRecDownsActivity: MeRecDownsActivity()
+com.ex.fivemao.MeVisitedVideosActivity
+com.ex.fivemao.MeVisitedVideosActivity: MeVisitedVideosActivity()
+com.ex.fivemao.MenuSettingsActivity
+com.ex.fivemao.MenuSettingsActivity: MenuSettingsActivity()
+com.ex.fivemao.R$anim: int anim_in
+com.ex.fivemao.R$anim: int anim_out
+com.ex.fivemao.R$anim: int cycle_3
+com.ex.fivemao.R$anim: int cycle_7
+com.ex.fivemao.R$anim: int rotate
+com.ex.fivemao.R$anim: int shake
+com.ex.fivemao.R$anim: int shake2
+com.ex.fivemao.R$anim: int zoom
+com.ex.fivemao.R$anim: int zoom2
+com.ex.fivemao.R$color: int bg_video_controller
+com.ex.fivemao.R$color: int bg_video_controller_divider
+com.ex.fivemao.R$color: int black
+com.ex.fivemao.R$color: int colorAccent
+com.ex.fivemao.R$color: int colorPrimary
+com.ex.fivemao.R$color: int colorPrimaryDark
+com.ex.fivemao.R$color: int color_efefef
+com.ex.fivemao.R$color: int transparent
+com.ex.fivemao.R$color: int white
+com.ex.fivemao.R$dimen: int activity_horizontal_margin
+com.ex.fivemao.R$dimen: int activity_vertical_margin
+com.ex.fivemao.R$drawable: int backarrow
+com.ex.fivemao.R$drawable: int bg_bottom_shadow
+com.ex.fivemao.R$drawable: int bg_top_shadow
+com.ex.fivemao.R$drawable: int bg_video_progress_dialog
+com.ex.fivemao.R$drawable: int bitmap_bg1
+com.ex.fivemao.R$drawable: int bitmap_bg2
+com.ex.fivemao.R$drawable: int board
+com.ex.fivemao.R$drawable: int bt_round_shape
+com.ex.fivemao.R$drawable: int bt_round_shape_1
+com.ex.fivemao.R$drawable: int bt_round_shape_normal
+com.ex.fivemao.R$drawable: int bt_round_shape_normal_1
+com.ex.fivemao.R$drawable: int bt_round_shape_pressed
+com.ex.fivemao.R$drawable: int bt_round_shape_pressed_1
+com.ex.fivemao.R$drawable: int contactsupportqrcode
+com.ex.fivemao.R$drawable: int correct_bg_video_controller
+com.ex.fivemao.R$drawable: int correct_white_stroke
+com.ex.fivemao.R$drawable: int edit_delete_icon
+com.ex.fivemao.R$drawable: int edit_delete_pressed_icon
+com.ex.fivemao.R$drawable: int edit_text_border
+com.ex.fivemao.R$drawable: int fivemaoappdownload
+com.ex.fivemao.R$drawable: int home_bg
+com.ex.fivemao.R$drawable: int hothothot
+com.ex.fivemao.R$drawable: int ic_back_white
+com.ex.fivemao.R$drawable: int ic_launcher
+com.ex.fivemao.R$drawable: int ic_music_close
+com.ex.fivemao.R$drawable: int ic_video_back
+com.ex.fivemao.R$drawable: int ic_video_back_home
+com.ex.fivemao.R$drawable: int ic_video_free_complete
+com.ex.fivemao.R$drawable: int ic_video_fullscreen
+com.ex.fivemao.R$drawable: int ic_video_more_download
+com.ex.fivemao.R$drawable: int ic_video_more_share
+com.ex.fivemao.R$drawable: int ic_video_needbuy
+com.ex.fivemao.R$drawable: int ic_video_pause
+com.ex.fivemao.R$drawable: int ic_video_play
+com.ex.fivemao.R$drawable: int ic_video_speed
+com.ex.fivemao.R$drawable: int ic_video_stroke
+com.ex.fivemao.R$drawable: int layout_round_shape_white
+com.ex.fivemao.R$drawable: int me
+com.ex.fivemao.R$drawable: int media_thumb
+com.ex.fivemao.R$drawable: int oval_gray_solid
+com.ex.fivemao.R$drawable: int oval_lightred_solid
+com.ex.fivemao.R$drawable: int oval_red_stroke
+com.ex.fivemao.R$drawable: int oval_white_stroke
+com.ex.fivemao.R$drawable: int player_system_ui_progressbar
+com.ex.fivemao.R$drawable: int post_pay_ali_feedback
+com.ex.fivemao.R$drawable: int post_pay_alipay
+com.ex.fivemao.R$drawable: int post_pay_alipay_membership
+com.ex.fivemao.R$drawable: int post_pay_alipay_membership_1mon
+com.ex.fivemao.R$drawable: int post_pay_alipay_membership_3mon
+com.ex.fivemao.R$drawable: int search
+com.ex.fivemao.R$drawable: int search_icon
+com.ex.fivemao.R$drawable: int system_ui_brightness
+com.ex.fivemao.R$drawable: int system_ui_no_volume
+com.ex.fivemao.R$drawable: int system_ui_volume
+com.ex.fivemao.R$drawable: int video
+com.ex.fivemao.R$drawable: int video_bg
+com.ex.fivemao.R$drawable: int video_locked
+com.ex.fivemao.R$drawable: int video_more
+com.ex.fivemao.R$drawable: int video_progressbar
+com.ex.fivemao.R$drawable: int video_unlock
+com.ex.fivemao.R$id: int RelativeLayoutHomePage
+com.ex.fivemao.R$id: int action_buyOnedayMembership
+com.ex.fivemao.R$id: int action_contactSuport
+com.ex.fivemao.R$id: int action_findMyPassword
+com.ex.fivemao.R$id: int action_helpGuide
+com.ex.fivemao.R$id: int action_modifyMyProfile
+com.ex.fivemao.R$id: int action_quicklinkFilmList
+com.ex.fivemao.R$id: int action_quicklinkSearchFilms
+com.ex.fivemao.R$id: int action_recFilmToFriends
+com.ex.fivemao.R$id: int action_recToFriends
+com.ex.fivemao.R$id: int action_settings
+com.ex.fivemao.R$id: int action_shareToWechat
+com.ex.fivemao.R$id: int action_toogleBGMusic
+com.ex.fivemao.R$id: int addingMessagesLoadingHint
+com.ex.fivemao.R$id: int aliOrderCode
+com.ex.fivemao.R$id: int aliPayScrollView
+com.ex.fivemao.R$id: int baiduYunPlayVideo
+com.ex.fivemao.R$id: int btnNegativeShowRecImg
+com.ex.fivemao.R$id: int btnPositiveShowRecImg
+com.ex.fivemao.R$id: int btnSend
+com.ex.fivemao.R$id: int btn_dialog_X
+com.ex.fivemao.R$id: int btn_start
+com.ex.fivemao.R$id: int button_bar
+com.ex.fivemao.R$id: int button_barMyMail
+com.ex.fivemao.R$id: int button_barRecMail
+com.ex.fivemao.R$id: int buy1MonthMembership
+com.ex.fivemao.R$id: int buy3MonthsMembership
+com.ex.fivemao.R$id: int buyMemershipBtn
+com.ex.fivemao.R$id: int buyOneDayMembership
+com.ex.fivemao.R$id: int buyOneDayMembershipX
+com.ex.fivemao.R$id: int buyVideo
+com.ex.fivemao.R$id: int buyVideoIntro
+com.ex.fivemao.R$id: int buyVideoName
+com.ex.fivemao.R$id: int checkAppVersionInfo
+com.ex.fivemao.R$id: int checkBoughtMemberships
+com.ex.fivemao.R$id: int checkBoughtVideos
+com.ex.fivemao.R$id: int checkMyRecDowns
+com.ex.fivemao.R$id: int checkVisitedVideos
+com.ex.fivemao.R$id: int cleanPlayHistory
+com.ex.fivemao.R$id: int cleanVideoCache
+com.ex.fivemao.R$id: int confirmBtn
+com.ex.fivemao.R$id: int descMsgContent
+com.ex.fivemao.R$id: int descMsgOther
+com.ex.fivemao.R$id: int descMsgTitle
+com.ex.fivemao.R$id: int descVideoDescription
+com.ex.fivemao.R$id: int descVideoName
+com.ex.fivemao.R$id: int divider3
+com.ex.fivemao.R$id: int dividertitle
+com.ex.fivemao.R$id: int ffwd
+com.ex.fivemao.R$id: int fullScreen
+com.ex.fivemao.R$id: int guideActScrollView
+com.ex.fivemao.R$id: int guideLoadingHint
+com.ex.fivemao.R$id: int guideToBottom
+com.ex.fivemao.R$id: int imageDescsLayout
+com.ex.fivemao.R$id: int imgBoard
+com.ex.fivemao.R$id: int imgHothothot
+com.ex.fivemao.R$id: int imgMe
+com.ex.fivemao.R$id: int imgPaymentAccountImage
+com.ex.fivemao.R$id: int imgPaymentEvidenceImage
+com.ex.fivemao.R$id: int imgSearch
+com.ex.fivemao.R$id: int imgShowRecScrenshot
+com.ex.fivemao.R$id: int imgVideo
+com.ex.fivemao.R$id: int input
+com.ex.fivemao.R$id: int itemContent
+com.ex.fivemao.R$id: int itemCreatedTime
+com.ex.fivemao.R$id: int itemDesc
+com.ex.fivemao.R$id: int itemIcon
+com.ex.fivemao.R$id: int itemIdx
+com.ex.fivemao.R$id: int itemTitle
+com.ex.fivemao.R$id: int iv_seek_direction
+com.ex.fivemao.R$id: int loginTitle
+com.ex.fivemao.R$id: int loginToWumao
+com.ex.fivemao.R$id: int logoffFromWumao
+com.ex.fivemao.R$id: int mFooter
+com.ex.fivemao.R$id: int mFooterparent
+com.ex.fivemao.R$id: int meAcLoginSignOnSection
+com.ex.fivemao.R$id: int meAcLoinedSection
+com.ex.fivemao.R$id: int meBoughtMembership
+com.ex.fivemao.R$id: int meBoughtMembershipLoadingHint
+com.ex.fivemao.R$id: int meBoughtVideos
+com.ex.fivemao.R$id: int meBoughtVideosLoadingHint
+com.ex.fivemao.R$id: int meRecDowns
+com.ex.fivemao.R$id: int meRecDownsLoadingHint
+com.ex.fivemao.R$id: int meSearchVideos
+com.ex.fivemao.R$id: int meSearchVideosLoadingHint
+com.ex.fivemao.R$id: int meVisitedVideos
+com.ex.fivemao.R$id: int meVisitedVideosLoadingHint
+com.ex.fivemao.R$id: int mediacontroller_progress
+com.ex.fivemao.R$id: int membershipBuyTitle
+com.ex.fivemao.R$id: int membershipEndTime
+com.ex.fivemao.R$id: int membershipIdx
+com.ex.fivemao.R$id: int membershipStartTime
+com.ex.fivemao.R$id: int membershipStatus
+com.ex.fivemao.R$id: int messageTextBox
+com.ex.fivemao.R$id: int next
+com.ex.fivemao.R$id: int pass
+com.ex.fivemao.R$id: int pause
+com.ex.fivemao.R$id: int paymentCallAli
+com.ex.fivemao.R$id: int paymentEvidence
+com.ex.fivemao.R$id: int paymentEvidenceImage
+com.ex.fivemao.R$id: int paymentEvidenceImagePreview
+com.ex.fivemao.R$id: int playerVideoName
+com.ex.fivemao.R$id: int playerVideoNote
+com.ex.fivemao.R$id: int player_duration
+com.ex.fivemao.R$id: int player_lock_screen
+com.ex.fivemao.R$id: int player_pause
+com.ex.fivemao.R$id: int player_progress
+com.ex.fivemao.R$id: int player_seek_bar
+com.ex.fivemao.R$id: int prev
+com.ex.fivemao.R$id: int processingAliTransLoadingHint
+com.ex.fivemao.R$id: int recEmailLine
+com.ex.fivemao.R$id: int recExtraText
+com.ex.fivemao.R$id: int recToFriendBtn
+com.ex.fivemao.R$id: int recToFriendBtnFromMemberBuypage
+com.ex.fivemao.R$id: int recToFriendNotice
+com.ex.fivemao.R$id: int rew
+com.ex.fivemao.R$id: int saveAsImageAndShare
+com.ex.fivemao.R$id: int searchEdittext
+com.ex.fivemao.R$id: int searchHis1
+com.ex.fivemao.R$id: int searchHis2
+com.ex.fivemao.R$id: int searchHis3
+com.ex.fivemao.R$id: int searchHis4
+com.ex.fivemao.R$id: int searchHis5
+com.ex.fivemao.R$id: int secureLockApp
+com.ex.fivemao.R$id: int setBGMusicSetting
+com.ex.fivemao.R$id: int setVideosLoadingStrategy
+com.ex.fivemao.R$id: int signupToWumao
+com.ex.fivemao.R$id: int siteMessages
+com.ex.fivemao.R$id: int surface
+com.ex.fivemao.R$id: int system_ui_image
+com.ex.fivemao.R$id: int system_ui_seek_bar
+com.ex.fivemao.R$id: int system_ui_title
+com.ex.fivemao.R$id: int time
+com.ex.fivemao.R$id: int time_current
+com.ex.fivemao.R$id: int triggerVideo
+com.ex.fivemao.R$id: int triggerVideoSnapshots
+com.ex.fivemao.R$id: int tv_cancel
+com.ex.fivemao.R$id: int tv_dialog_container
+com.ex.fivemao.R$id: int tv_dialog_make_sure_content
+com.ex.fivemao.R$id: int tv_dialog_make_sure_title
+com.ex.fivemao.R$id: int tv_seek_current_progress
+com.ex.fivemao.R$id: int tv_seek_duration
+com.ex.fivemao.R$id: int tv_sure
+com.ex.fivemao.R$id: int tv_sure_divider
+com.ex.fivemao.R$id: int tv_toast
+com.ex.fivemao.R$id: int userEmailAct
+com.ex.fivemao.R$id: int userEmailLine
+com.ex.fivemao.R$id: int userId
+com.ex.fivemao.R$id: int userProxyEmail
+com.ex.fivemao.R$id: int videoBaiduYunDesc
+com.ex.fivemao.R$id: int videoDescActivtyScrollView
+com.ex.fivemao.R$id: int videoDescHint
+com.ex.fivemao.R$id: int videoLayout
+com.ex.fivemao.R$id: int videoPlayWholePage
+com.ex.fivemao.R$id: int videoPlayingHint
+com.ex.fivemao.R$id: int video_RelativeLayout
+com.ex.fivemao.R$id: int video_back
+com.ex.fivemao.R$id: int video_controller
+com.ex.fivemao.R$id: int video_controller_bottom
+com.ex.fivemao.R$id: int video_controller_error
+com.ex.fivemao.R$id: int video_controller_title
+com.ex.fivemao.R$id: int video_error_info
+com.ex.fivemao.R$id: int video_error_retry
+com.ex.fivemao.R$id: int video_full_screen
+com.ex.fivemao.R$id: int video_layout
+com.ex.fivemao.R$id: int video_loading
+com.ex.fivemao.R$id: int video_progress_overlay
+com.ex.fivemao.R$id: int video_surface
+com.ex.fivemao.R$id: int video_system_overlay
+com.ex.fivemao.R$id: int video_title
+com.ex.fivemao.R$id: int videos
+com.ex.fivemao.R$id: int videosLoadingHint
+com.ex.fivemao.R$id: int vplayPlayer
+com.ex.fivemao.R$id: int vv
+com.ex.fivemao.R$id: int webHelpGuide
+com.ex.fivemao.R$id: int webViewVideo
+com.ex.fivemao.R$id: int withDrawMyServiceFees
+com.ex.fivemao.R$layout: int activity_board
+com.ex.fivemao.R$layout: int activity_main
+com.ex.fivemao.R$layout: int activity_main_major
+com.ex.fivemao.R$layout: int activity_me
+com.ex.fivemao.R$layout: int activity_me_boughtmemberships
+com.ex.fivemao.R$layout: int activity_me_boughtvideos
+com.ex.fivemao.R$layout: int activity_me_login
+com.ex.fivemao.R$layout: int activity_me_recdowns
+com.ex.fivemao.R$layout: int activity_me_visitedvideos
+com.ex.fivemao.R$layout: int activity_search
+com.ex.fivemao.R$layout: int activity_sub_boardmsgdesc
+com.ex.fivemao.R$layout: int activity_sub_helpguide
+com.ex.fivemao.R$layout: int activity_sub_recontofriend
+com.ex.fivemao.R$layout: int activity_sub_settings
+com.ex.fivemao.R$layout: int activity_sub_videobuy
+com.ex.fivemao.R$layout: int activity_sub_videodesc
+com.ex.fivemao.R$layout: int activity_sub_videoplay
+com.ex.fivemao.R$layout: int activity_testingmediaplayer
+com.ex.fivemao.R$layout: int activity_video
+com.ex.fivemao.R$layout: int activity_video_detail
+com.ex.fivemao.R$layout: int dialog_showrecscreenshot
+com.ex.fivemao.R$layout: int items
+com.ex.fivemao.R$layout: int items_messages
+com.ex.fivemao.R$layout: int items_onedaymembership
+com.ex.fivemao.R$layout: int layout_footer_listview
+com.ex.fivemao.R$layout: int layout_top_toast
+com.ex.fivemao.R$layout: int makesuredialog
+com.ex.fivemao.R$layout: int media_controller
+com.ex.fivemao.R$layout: int video_controller_bottom
+com.ex.fivemao.R$layout: int video_controller_error
+com.ex.fivemao.R$layout: int video_controller_loading
+com.ex.fivemao.R$layout: int video_controller_title
+com.ex.fivemao.R$layout: int video_media_controller
+com.ex.fivemao.R$layout: int video_overlay_progress
+com.ex.fivemao.R$layout: int video_overlay_system
+com.ex.fivemao.R$layout: int video_view
+com.ex.fivemao.R$menu: int main
+com.ex.fivemao.R$string: int action_settings
+com.ex.fivemao.R$string: int app_name
+com.ex.fivemao.R$style: int AppBaseTheme
+com.ex.fivemao.R$style: int AppTheme
+com.ex.fivemao.R$style: int MediaButton
+com.ex.fivemao.R$style: int MediaButton_Ffwd
+com.ex.fivemao.R$style: int MediaButton_FullScreen
+com.ex.fivemao.R$style: int MediaButton_Next
+com.ex.fivemao.R$style: int MediaButton_Pause
+com.ex.fivemao.R$style: int MediaButton_Play
+com.ex.fivemao.R$style: int MediaButton_Previous
+com.ex.fivemao.R$style: int MediaButton_Rew
+com.ex.fivemao.R$style: int Widget_SeekBar_Media
+com.ex.fivemao.R$style: int actionBarTitle
+com.ex.fivemao.R$style: int anim_view
+com.ex.fivemao.R$style: int editTextStyle
+com.ex.fivemao.R$style: int myActionBarStyle
+com.ex.fivemao.R$xml: int update_files
+com.ex.fivemao.ReconToFriendsActivity
+com.ex.fivemao.ReconToFriendsActivity: ReconToFriendsActivity()
+com.ex.fivemao.SearchActivity
+com.ex.fivemao.SearchActivity: SearchActivity()
+com.ex.fivemao.VideoActivity
+com.ex.fivemao.VideoActivity: VideoActivity()
+com.ex.fivemao.VideoBuyActivity
+com.ex.fivemao.VideoBuyActivity: VideoBuyActivity()
+com.ex.fivemao.VideoBuyMembershipActivity
+com.ex.fivemao.VideoBuyMembershipActivity: VideoBuyMembershipActivity()
+com.ex.fivemao.VideoDescActivity
+com.ex.fivemao.VideoDescActivity: VideoDescActivity()
+com.ex.fivemao.VideoDuoPlayerActivity
+com.ex.fivemao.VideoDuoPlayerActivity: VideoDuoPlayerActivity()
+com.ex.fivemao.VideoPlayerActivity
+com.ex.fivemao.VideoPlayerActivity: VideoPlayerActivity()
+com.ex.fivemao.audioservice.MusicService
+com.ex.fivemao.audioservice.MusicService: MusicService()
+com.ex.fivemao.ui.BaseIntent
+com.ex.fivemao.ui.CustomVideoView
+com.ex.fivemao.ui.CustomVideoView: CustomVideoView(android.content.Context,android.util.AttributeSet)
+com.ex.fivemao.ui.CustomVideoView: CustomVideoView(android.content.Context,android.util.AttributeSet,int)
+com.ex.fivemao.ui.MyImageView
+com.ex.fivemao.ui.MyImageView: MyImageView(android.content.Context,android.util.AttributeSet,int)
+com.ex.fivemao.ui.MyImageView: MyImageView(android.content.Context)
+com.ex.fivemao.ui.MyImageView: MyImageView(android.content.Context,android.util.AttributeSet)
+com.ex.fivemao.ui.MyImageView: void setImageURL(java.lang.String)
+com.ex.fivemao.ui.MyVisualizerView: void setVisualizer(android.media.audiofx.Visualizer)
+com.ex.fivemao.ui.SearchEditText
+com.ex.fivemao.ui.SearchEditText: void setOnSearchClickListener(com.ex.fivemao.ui.SearchEditText$OnSearchClickListener)
+com.ex.fivemao.ui.SearchEditText: SearchEditText(android.content.Context)
+com.ex.fivemao.ui.SearchEditText: SearchEditText(android.content.Context,android.util.AttributeSet)
+com.ex.fivemao.ui.SearchEditText: SearchEditText(android.content.Context,android.util.AttributeSet,int)
+com.example.myvideos.http.proxy.App

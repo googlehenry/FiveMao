@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:focusable="true" 
+    android:orientation="vertical"
+	android:focusableInTouchMode="true"
+    tools:context=".BoardActivity" >
+    
+	<TextView 
+	    android:id="@+id/addingMessagesLoadingHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#ffffff"
+    android:layout_marginBottom="10dp"
+    android:text="加载留言中..."
+	    />
+
+	<LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       >
+   <EditText
+       android:id="@+id/messageTextBox"
+	    android:layout_width="match_parent"
+	    android:layout_height="35dp"
+	    android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"
+   		android:hint="留言"
+	    android:background="@drawable/edit_text_border"
+	    android:textSize="16sp"
+	    android:layout_weight="1"
+	    />
+   <Button  
+        android:id="@+id/btnSend"  
+        android:layout_width="wrap_content"  
+        android:layout_height="35dp" 
+        android:textColor="#fff"
+        android:padding="2dp"
+        android:background="@drawable/bt_round_shape"
+        android:text="发送"
+        android:textSize="18sp" />
+   
+  	</LinearLayout>
+
+	<View
+  	    android:layout_width="match_parent"
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+  	    />
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+       <ListView
+        android:id="@+id/siteMessages"
+        android:divider="#3aadfd"
+        android:dividerHeight="1.0px"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"  
+        />
+       
+   </LinearLayout>
+   
+</LinearLayout>

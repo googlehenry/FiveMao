@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"  
+    tools:context="com.ex.fivemao.MeBoughtMembershipActivity" >
+    <TextView 
+	    android:id="@+id/meBoughtMembershipLoadingHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#ffffff"
+    android:text="加载已购一日会员记录..."
+    
+	    />
+   
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+       <ListView
+        android:id="@+id/meBoughtMembership"
+        android:divider="#3aadfd"
+        android:dividerHeight="1.0px"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"  
+        />
+       
+   </LinearLayout>
+    
+   <LinearLayout 
+	    android:layout_width="match_parent"  
+	    android:layout_height="wrap_content"
+	    android:gravity="center"  
+	    android:orientation="horizontal">
+       
+			    <Button  
+			        android:id="@+id/recToFriendBtnFromMemberBuypage"  
+			        android:layout_width="wrap_content"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginRight="20dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="推荐APP赚佣金"
+			        android:textSize="16sp" />  
+       <Button  
+			        android:id="@+id/buyMemershipBtn"  
+			        android:layout_width="wrap_content"  
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:layout_marginBottom="20dp"
+			        android:padding="5dp"
+			        android:background="@drawable/bt_round_shape"
+			        android:textColor="#fff"
+			        android:text="马上购买会员"
+			        android:textSize="16sp" /> 
+			        
+		</LinearLayout>	
+		
+    <TextView 
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:paddingLeft="20dp"
+    android:layout_margin="5dp"
+    android:textColor="#999999"
+    android:background="@drawable/edit_text_border"
+    android:text="【购买会员简介:】\n
+    1.任何注册用户皆可购买\n
+    2.一元购买一天,全场免费观看一天,；购买套餐还有8.0元一月会员(31天),18.0元三月会员(93天)。\n
+    3.[推荐人邮箱]没有填写的用户，购买会员后还是不能看V+电影。\n
+    4.购买成功后，您的推荐人将会获得20%购买金额的佣金，您推荐APP给朋友后也可以获得佣金\n"
+    
+	    />
+    
+</LinearLayout>

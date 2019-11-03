@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ex.fivemao.MainActivity" 
+    >
+	<item
+        android:id="@+id/action_quicklinkSearchFilms"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:icon="@drawable/search_icon"
+        android:showAsAction="ifRoom|withText"
+        android:title="搜电影"/>
+	<item
+        android:id="@+id/action_quicklinkFilmList"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="视频列表"/>
+	
+	<item
+        android:id="@+id/action_buyOnedayMembership"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="购买会员"/>
+	
+	<item
+        android:id="@+id/action_recToFriends"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="推荐APP赚佣金"/>
+	
+	<item
+        android:id="@+id/action_recFilmToFriends"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="分享该电影"/>
+	
+	<item
+        android:id="@+id/action_toogleBGMusic"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="开/关音乐"/>
+	
+	<item
+        android:id="@+id/action_modifyMyProfile"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="修改信息"/>
+	
+	<item
+        android:id="@+id/action_findMyPassword"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:showAsAction="ifRoom|withText"
+        android:title="找回密码"/>
+	
+	<!-- 分割 -->
+	
+	
+	
+    <item
+        android:id="@+id/action_shareToWechat"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="推荐给朋友(20%佣金)"/>
+    
+    <item
+        android:id="@+id/action_contactSuport"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="联系客服"/>
+    
+    <item
+        android:id="@+id/action_helpGuide"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="购买指南"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="系统设置"/>
+</menu>

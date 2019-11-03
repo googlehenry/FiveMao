@@ -1,0 +1,2 @@
+properties's been encrypted
+check java project ImageEncoding for source file

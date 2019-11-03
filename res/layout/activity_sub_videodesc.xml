@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/videoDescActivtyScrollView"  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbars="vertical"
+  tools:context="com.ex.fivemao.VideoDescActivity" >
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <View  
+        android:layout_width="match_parent"  
+        android:layout_height="1.0px"
+        android:layout_marginTop="5dp"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+        />  
+        
+        <TextView 
+	    android:id="@+id/videoDescHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#ffffff"
+    android:text="加载影片简介中..."
+	    />
+        <TextView
+            android:id="@+id/descVideoName"  
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="20sp"
+		    android:textStyle="bold" 
+		    android:gravity="center"
+		    android:layout_marginTop="10dp"
+		    />
+        <TextView
+            android:id="@+id/descVideoDescription"  
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginLeft="5dp"
+		    android:textSize="14sp"
+		    android:layout_marginBottom="10dp"
+		    />
+        <View  
+        android:layout_width="match_parent"  
+        android:layout_height="1.0px"
+      android:layout_marginLeft="1.0px"
+      android:layout_marginRight="1.0px"
+        android:background="#3aadfd"
+        />  
+        <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center"
+    android:orientation="horizontal">
+    <Button  
+        android:id="@+id/triggerVideoSnapshots"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:background="@drawable/bt_round_shape"
+        android:textColor="#fff"
+        android:text="加载截图简介"
+        android:textSize="18sp" />  
+        
+    <Button  
+        android:id="@+id/triggerVideo"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:background="@drawable/bt_round_shape"
+        android:textColor="#fff"
+        android:text="点我马上播放"
+        android:textSize="18sp" />  
+	</LinearLayout>	
+	
+    <WebView
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webViewVideo"         />
+    
+    <LinearLayout 
+    android:id="@+id/imageDescsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="6dp"
+    >
+	</LinearLayout>
+	
+</LinearLayout>
+</ScrollView>

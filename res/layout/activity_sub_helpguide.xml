@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/guideActScrollView"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbars="vertical"
+  tools:context="com.ex.fivemao.HelpGuideActivity" >
+  
+    <LinearLayout 
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical">
+    <TextView 
+	    android:id="@+id/guideLoadingHint"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="#2197db"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+    android:textColor="#ffffff"
+    android:text="加载付款指南中..."
+	    />
+    
+       <WebView
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webHelpGuide"         />
+     	
+       <TextView 
+	    android:id="@+id/guideToBottom"
+	    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:layout_marginBottom="10dp"
+    android:visibility="invisible"
+    android:paddingLeft="20dp"
+    android:text="!恭喜，您现在可以【返回】接着付款了。"
+	    />
+	</LinearLayout>
+</ScrollView>
